@@ -3,7 +3,7 @@
 import streamlit as st
 
 # 1. 기계학습 모델 파일 로드
-
+joblib.dump(model, 'logistic_regression_model.pkl')
 
 # 2. 모델 설명
  
